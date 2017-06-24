@@ -11,7 +11,7 @@ To have better understanding of PHP Frameworks and Advance Javascripts and SQL's
 - [ ] Install Xampp
 
 
-### TODOS (MM-DD-YYYY)
+### TODOS (06-25-2017)
 - [ ] Finish Setup Installations
 - [ ] Able to run a webservice local through xampp
 
