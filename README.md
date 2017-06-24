@@ -7,13 +7,12 @@ This web app lets users find local basking communities.
 To have better understanding of PHP Frameworks and Advance Javascripts and SQL's
 
 ### Setup Installations
-- [ ] Instal Git
-- [ ] Install Xampp
-- [ ] Install IDE (Atom, Sublime, Etc.)
-- [ ] Clone this repo
+- [x] Instal Git
+- [x] Install Xampp
+- [x] Install IDE (Atom, Sublime, Etc.)
+- [x] Clone this repo
 
 
-### TODOS (06-25-2017) 
-- [ ] Finish Setup Installations
-- [ ] Able to run a repo local through xampp
-
+### TODOS (06-25-2017)
+- [x] Finish Setup Installations
+- [x] Able to run a repo local through xampp
