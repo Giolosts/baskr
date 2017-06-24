@@ -15,5 +15,5 @@ To have better understanding of PHP Frameworks and Advance Javascripts and SQL's
 
 ### TODOS (06-25-2017) 
 - [ ] Finish Setup Installations
-- [ ] Able to run a webservice local through xampp
+- [ ] Able to run a repo local through xampp
 
