@@ -12,7 +12,10 @@ To have better understanding of PHP Frameworks and Advance Javascripts and SQL's
 - [x] Install IDE (Atom, Sublime, Etc.)
 - [x] Clone this repo
 
-
-### TODOS (06-25-2017)
+### TODOS (06-24-2017)
 - [x] Finish Setup Installations
 - [x] Able to run a repo local through xampp
+
+### TODOS (06-25-2017)
+- [ ] Create a simple php crud for baskers.
+- [ ] Database(id,fullname,lastname,contact_number,email_address,date_created,date_updated)
