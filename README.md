@@ -19,3 +19,9 @@ To have better understanding of PHP Frameworks and Advance Javascripts and SQL's
 ### TODOS (06-25-2017)
 - [x] Create a simple php crud for baskers.
 - [x] Database(id,fullname,lastname,contact_number,email_address,date_created,date_updated)
+
+
+### TODOS (06-29-2017)
+- [ ] Add Javascript validation(note: empty inputs should not submitted)
+- [ ] Add table design alternate color
+- [ ] Addd email and contacT_no validation
