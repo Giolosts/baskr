@@ -17,5 +17,11 @@ To have better understanding of PHP Frameworks and Advance Javascripts and SQL's
 - [x] Able to run a repo local through xampp
 
 ### TODOS (06-25-2017)
-- [ ] Create a simple php crud for baskers.
-- [ ] Database(id,fullname,lastname,contact_number,email_address,date_created,date_updated)
+- [x] Create a simple php crud for baskers.
+- [x] Database(id,fullname,lastname,contact_number,email_address,date_created,date_updated)
+
+
+### TODOS (06-29-2017)
+- [x] Add Javascript validation(note: empty inputs should not submitted)
+- [x] Add table design alternate color
+- [x] Addd email and contacT_no validation

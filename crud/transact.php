@@ -21,7 +21,7 @@ $hostname = "localhost";
 	}
 
   //add
-if(isset($_POST['submit'])){
+if(isset($_POST['insert'])){
 		$fname= $_POST['full_name'];
 		$lname= $_POST['last_name'];
 		$cnum= $_POST['contact_number'];
@@ -29,11 +29,15 @@ if(isset($_POST['submit'])){
 		$dcrt= $_POST['date_created'];
 		$dupdt= $_POST['date_updated'];
 
-		echo $sql = "INSERT INTO contacts(full_name, last_name, contact_number, email_address, date_created , date_updated)
+		 $sql = "INSERT INTO contacts(full_name, last_name, contact_number, email_address, date_created , date_updated)
 		values('{$fname}','{$lname}','{$cnum}','{$emlad}','{$dcrt}','{$dupdt}')";
 		$result= mysqli_query($con,$sql);
 
 		header("Location: create.php");
+	}else{
+		echo "<script type='text/javascript'>
+
+					</script>";
 	}
 	//DELETE
 	if(isset($_GET['id'])){
@@ -59,6 +63,8 @@ if(isset($_POST['update'])){
 	$result= mysqli_query($con,$sql);
 	echo count($result);
 
+	echo "<script type='text/javascript'>alert('Failed');
+					</script>";
 	header("Location: create.php");
 }
 ?>
