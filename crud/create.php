@@ -1,8 +1,20 @@
 <!doctype html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<script src="myscript.js"></script>
+<style>
+html {
+  background: url(sample.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+body {
+  color: white;
+}
+</style>
 </head>
-<body>
+<body >
 <table border="1" align="center">
 <tr>
  <th>ID</th>
@@ -15,17 +27,18 @@
  <th> &nbsp; </th>
 </tr>
  <tr>
- <form method="POST" action="transact.php">
+ <form name= "frm" method="POST" action="transact.php">
  <td> &nbsp;</td>
- <td><input type="text" name="first_name"/></td>
+ <td><input type="text" name="full_name"/></td>
  <td><input type="text" name="last_name"/></td>
- <td><input type="text" name="contact_number"/></td>
- <td><input type="text" name="email_address"/></td>
- <td><input type="text" name="date_created"/></td>
- <td><input type="text" name="date_updated"/></td>
- <td><input type="submit" name="insert"/></td>
+ <td><input type="number" name="contact_number"/></td>
+ <td><input type="email" name="email_address"/></td>
+ <td><input type="date" name="date_created"/></td>
+ <td><input type="date" name="date_updated"/></td>
+ <td><input type="submit" id="insert" name="insert" onclick="return IsEmpty();" value="add data"/></td>
  </form>
 </tr>
+
   <?php
   $hostname = "localhost";
     $username = "root";
@@ -60,8 +73,8 @@
       echo "<td>".$row['email_address']."</td>";
       echo "<td>".$row['date_created']."</td>";
       echo "<td>".$row['date_updated']."</td>";
-      echo "<td> <button><a href='transact.php?id=".$row['id']."'>DELETE</a></td>";
-		  echo "<td><button><a href='update.php?id=".$row['id']."'>UPDATE</a></td>";
+      echo "<td> <button onclick='return DeleteFunction()'><a href='transact.php?id=".$row['id']."'>DELETE</a></td>";
+		  echo "<td><button onclick='return UpdateFunction()'><a href='update.php?id=".$row['id']."'>UPDATE</a></td>";
 		  echo "</tr>";
      echo "</tr>";
    }
