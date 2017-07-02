@@ -22,9 +22,9 @@ To have better understanding of PHP Frameworks and Advance Javascripts and SQL's
 
 
 ### TODOS (06-29-2017)
-- [ ] Add Javascript validation(note: empty inputs should not submitted)
-- [ ] Add table design alternate color
-- [ ] Addd email and contacT_no validation
+- [x] Add Javascript validation(note: empty inputs should not submitted)
+- [x] Add table design alternate color
+- [x] Addd email and contacT_no validation
 
 
 ### TODOS (07-02-2017)
