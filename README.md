@@ -25,3 +25,11 @@ To have better understanding of PHP Frameworks and Advance Javascripts and SQL's
 - [ ] Add Javascript validation(note: empty inputs should not submitted)
 - [ ] Add table design alternate color
 - [ ] Addd email and contacT_no validation
+
+
+### TODOS (07-02-2017)
+- [ ] Setup Codeigniter Framework (should see a welcome to codeigniter)
+- [ ] learn how model->view-controller works
+- [ ] Setup a logged-in session to check if a user is logged in.
+- [ ] User can perform a crud if he is already loggedin
+
