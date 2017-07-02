@@ -29,6 +29,7 @@ To have better understanding of PHP Frameworks and Advance Javascripts and SQL's
 
 ### TODOS (07-02-2017)
 - [ ] Setup Codeigniter Framework (should see a welcome to codeigniter)
+      See codeigniter guide here(https://codeigniter.com/user_guide/)
 - [ ] learn how model->view-controller works
 - [ ] Setup a logged-in session to check if a user is logged in.
 - [ ] User can perform a crud if he is already loggedin
